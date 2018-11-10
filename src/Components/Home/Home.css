@@ -1,0 +1,53 @@
+.Home {
+    width: 100vw;
+    height: 100vh;
+    padding: 25px;
+    padding-bottom: 0;
+    border: #0D324D 5px solid;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    overflow: scroll;
+}
+
+.HomeMain {
+    background: white;
+    margin-top: 350px;
+    margin-bottom: 350px;
+    padding-bottom: 50px;
+    width: 80%;
+    height: 150vh; 
+    align-items: center;
+    border: 3px solid #0D324D;
+}
+
+.HomeMain header {
+    position: relative;
+    right: 30%;
+}
+
+.HorizontalDivide {
+    margin-left: auto;
+    margin-right: auto;
+    height: 0px;
+    width: 80%;
+    background: #991402;
+    border: 1px solid #991402;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.HomeBody {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow: scroll;
+}
+
+.HomeBody p {
+    width: 80%;
+    text-align: left;
+}
