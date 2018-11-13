@@ -3,11 +3,78 @@
   display: flex;
   height: 100vh;
   font-family: 'Times New Roman', Times, serif;
+}
 
-  background-image: url('./Assets/roof_tops.jpg');
+@media screen and (max-width: 450px), (max-height: 450px) {
+  div.App {
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  div.Page {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  div.Content {
+    width: 95%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+
+  div.Body p {
+    width: 70%;
+  }
+}
+
+.Page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: #0D324D 5px solid;
+  box-sizing: border-box;
+}
+
+.Background {
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 100% 40%;
-  overflow: hidden;
+  overflow: scroll;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
 
+.Content {
+  width: 80%;
+  margin-top: 300px;
+  margin-bottom: 600px;
+  border: 4px solid #0D324D;
+  background: white;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.HorizontalDivide {
+  margin-left: auto;
+  margin-right: auto;
+  height: 0px;
+  width: 80%;
+  border: 2px solid #991402;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Body p {
+  width: 80%;
+  text-align: left;
+  font-size: 20px;
 }
