@@ -1,0 +1,61 @@
+@media screen and (max-width: 450px), (max-height: 450px) {
+    div#CaseBackground {
+        background-position: 55% 100%;
+    }
+}
+
+#CaseBackground {
+    background-image: url('../../Assets/Background.jpeg');
+    background-position: 90% 40%;
+}
+
+#CaseBody {
+    flex-direction: row;
+}
+
+.CaseStudyLink {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.CaseStudyLink img {
+    height: 250px;
+    width: auto;
+}
+
+.CaseStudyLink:hover {
+    background: rgb(200, 200, 200);
+    cursor: pointer;
+}
+
+.StoryBody {
+    padding: 30px;
+    text-align: left;
+    font-size: 18px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+#GregImg {
+    margin: 20px;
+    float: right;
+    height: 400px;
+    width: auto;
+}
+
+#DavidImg {
+    margin: 20px;
+    float: right;
+    height: 300px;
+    width: auto;
+}
+
+#DavidImg2 {
+    margin: 20px;
+    float: left;
+    height: 350px;
+    width: auto;
+}

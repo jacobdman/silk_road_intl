@@ -11,6 +11,10 @@ class Nav extends Component {
             window.location.href = "http://silkroadintl.net/blog/#sthash.Gz7NWtQ2.dpbs";
         } else if (type ==='about') {
             this.props.history.push("/about")
+        } else if (type ==='contact') {
+            this.props.history.push("/contact")
+        } else if (type ==='case') {
+            this.props.history.push(`/casestudies`)
         }
     }
 
@@ -25,6 +29,10 @@ class Nav extends Component {
                     <a onClick={() => this.handleClick('home')} >Home</a>
                     <div className="NavDivide"></div>
                     <a onClick={() => this.handleClick('about')} >About us</a>
+                    <div className="NavDivide"></div>
+                    <a onClick={() => this.handleClick('contact')} >Contact</a>
+                    <div className="NavDivide"></div>
+                    <a onClick={() => this.handleClick('case')} >Case Studies</a>
                     <div className="NavDivide"></div>
                     <a onClick={() => this.handleClick('blog')} >Blog</a>
                     <div className="NavDivide"></div>

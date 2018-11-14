@@ -56,7 +56,8 @@ export default class About extends Component {
                             </div>
                         </div>
                         <div className="HorizontalDivide" ></div>
-                        <p>© 2006 Silk Road International</p>
+                        <div className="HorizontalDivide" ></div>
+                        <p className="CopyRight" >© 2006 Silk Road International.</p>
                     </div>
                 </div>
             </div>

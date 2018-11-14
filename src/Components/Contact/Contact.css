@@ -1,10 +1,14 @@
 @media screen and (max-width: 450px), (max-height: 450px) {
-    div#HomeBackground {
+    div#ContactBackground {
         background-position: 55% 100%;
     }
 }
 
-#HomeBackground {
+#ContactBackground {
     background-image: url('../../Assets/Background.jpeg');
-    background-position: 90% 70%;
+    background-position: 90% 40%;
+}
+
+#ContactBody {
+    flex-direction: row;
 }

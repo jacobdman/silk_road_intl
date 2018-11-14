@@ -5,6 +5,10 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
+.CopyRight {
+  font-size: 14px;
+}
+
 @media screen and (max-width: 450px), (max-height: 450px) {
   div.App {
     flex-direction: column;
@@ -77,4 +81,9 @@
   width: 80%;
   text-align: left;
   font-size: 20px;
+}
+
+.VerticalDivide {
+  height: 145px;
+  border: 1px solid #991402;
 }
