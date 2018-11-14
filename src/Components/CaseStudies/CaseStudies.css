@@ -2,6 +2,10 @@
     div#CaseBackground {
         background-position: 55% 100%;
     }
+
+    div#CaseBody {
+        flex-direction: column;
+    }
 }
 
 #CaseBackground {

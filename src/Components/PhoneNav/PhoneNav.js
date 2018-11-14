@@ -27,7 +27,13 @@ class PhoneNav extends Component {
         } else if (type === 'about') {
             this.props.history.push("/about")
             this.handleClick('close')
-        } else if (type === 'open') {
+        } else if (type ==='contact') {
+            this.props.history.push("/contact")
+            this.handleClick('close')
+        } else if (type ==='case') {
+            this.props.history.push(`/casestudies`)
+            this.handleClick('close')
+        }else if (type === 'open') {
             this.PhoneNavMenu.current.style.bottom = '0' 
             this.PhoneNavTop.current.style.top = '0' 
             this.PhoneNavTop.current.classList.add('Selected')
@@ -71,6 +77,10 @@ class PhoneNav extends Component {
                     <a onClick={() => this.handleClick('home')} >Home</a>
                     <div className="PhoneNavDivide"></div>
                     <a onClick={() => this.handleClick('about')} >About us</a>
+                    <div className="PhoneNavDivide"></div>
+                    <a onClick={() => this.handleClick('contact')} >Contact</a>
+                    <div className="PhoneNavDivide"></div>
+                    <a onClick={() => this.handleClick('case')} >Case Studies</a>
                     <div className="PhoneNavDivide"></div>
                     <a onClick={() => this.handleClick('blog')} >Blog</a>
                     <div className="PhoneNavDivide"></div>

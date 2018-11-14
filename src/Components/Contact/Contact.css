@@ -2,6 +2,10 @@
     div#ContactBackground {
         background-position: 55% 100%;
     }
+
+    div#ContactBody {
+        flex-direction: column;
+    }
 }
 
 #ContactBackground {
