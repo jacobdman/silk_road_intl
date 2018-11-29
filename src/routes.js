@@ -8,8 +8,8 @@ import CaseStudies from './Components/CaseStudies/CaseStudies'
 export default (
     <Switch>
         <Route component={Home} exact path='/' /> 
-        <Route component={About} path='/about' /> 
-        <Route component={Contact} path='/contact' /> 
-        <Route component={CaseStudies} path='/casestudies' /> 
+        <Route component={About} exact path='/about' /> 
+        <Route component={Contact} exact path='/contact' /> 
+        <Route component={CaseStudies} exact path='/casestudies' /> 
     </Switch>
 )
