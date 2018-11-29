@@ -23,7 +23,7 @@ class PhoneNav extends Component {
             this.handleClick('close')
         } else if (type === 'blog') {
             this.handleClick('close')
-            window.location.href = "http://silkroadintl.net/blog/#sthash.Gz7NWtQ2.dpbs";
+            window.location.href = "http://blog.silkroadintl.net/#sthash.2V1LBlli.dpbs";
         } else if (type === 'about') {
             this.props.history.push("/about")
             this.handleClick('close')

@@ -8,7 +8,7 @@ class Nav extends Component {
         if (type === 'home') {
             this.props.history.push("/");
         } else if (type === 'blog') {
-            window.location.href = "http://silkroadintl.net/blog/#sthash.Gz7NWtQ2.dpbs";
+            window.location.href = "http://blog.silkroadintl.net/#sthash.2V1LBlli.dpbs";
         } else if (type ==='about') {
             this.props.history.push("/about")
         } else if (type ==='contact') {
